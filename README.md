@@ -1,3 +1,45 @@
+<p align="center">
+   <a href="https://www.uit.edu.vn/">
+      <img src="https://i.imgur.com/WmMnSRt.png" border="none">
+   </a>
+</p>
+<h1 align="center">
+    Phát triển ứng dụng Web - IS207.N11.HTCL
+</h1>
+
+
+<h2>
+   Giới thiệu nhóm
+</h2>
+
+
+- **Thông tin thành viên**
+
+<table align="center">
+      <tr>
+       <th>Họ và Tên</th>
+       <th>MSSV</th>
+       <th>Email</th>
+      </tr>
+      <tr>
+       <td>Phạm Văn Nghĩa</td>
+       <td>20521656</td>
+       <td>20521656@gm.uit.edu.vn</td>  
+      </tr>
+      <tr>
+       <td>Nguyễn Minh Nhật</td>
+       <td>20521708</td>
+       <td>20521708@gm.uit.edu.vn</td>  
+      </tr>
+</table>
+
+<h2>
+  Chủ đề 
+</h2>
+
+- ***Tên chủ đề:*** Movie Ticket Booking Website
+
+
 ## Installation For This Project I used Xampp
 
 1) Open PHPMyAdmin
