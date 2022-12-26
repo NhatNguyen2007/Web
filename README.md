@@ -38,7 +38,7 @@
 </h2>
 
 
-## Installation For This Project I used Xampp
+## Installation for this project we used Xampp
 
 1) Open PHPMyAdmin
 2) Import 'moviebook.sql' to your phpmyadmin
