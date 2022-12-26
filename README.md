@@ -1,5 +1,4 @@
-##Installation
-For This Project I used Xampp.
+## Installation For This Project I used Xampp
 
 1) Open PHPMyAdmin
 2) Import 'moviebook.sql' to your phpmyadmin
