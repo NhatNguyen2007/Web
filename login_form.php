@@ -19,7 +19,7 @@
 					<table style="background-color:white;" class="table-condensed">
 					<tr>
 
-  						<a href="./index.html"><img src="img/logo.png" alt="" width="180px"></a>
+  						<a href="./index.html"><img src="img/UIT.png" alt="" width="180px"></a>
 					</tr>
 					<tr>
 						<td><b>User name</b></td>

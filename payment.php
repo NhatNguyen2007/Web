@@ -35,6 +35,13 @@ if (!isset($_SESSION['uname'])) {
     }
 
 </style>
+
+
+    <?php
+
+    ?>
+
+
 </head>
 <body>
 
@@ -179,7 +186,8 @@ if (!isset($_SESSION['uname'])) {
                                 </div>
                             </div>
                                 <div id="msg"></div>
-                                <div class="card-footer"> <button type="submit" id="payment" class="subscribe btn btn-primary btn-block shadow-sm"> Confirm Payment </button>
+                                <div class="card-footer"> 
+                                    <button type="submit" id="payment" class="subscribe btn btn-primary btn-block shadow-sm BookTicket"> Confirm Payment </button>
 
                                 </div>
                             
@@ -201,7 +209,7 @@ if (!isset($_SESSION['uname'])) {
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-<script type="text/javascript">
+    <script type="text/javascript">
     
     $(document).ready(function(){
     $("#payment").click(function(){

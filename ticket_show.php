@@ -28,10 +28,10 @@ if (!isset($_SESSION['uname'])) {
     </div> <!-- End -->
     <div class="row">
         <div class="col-lg-6 mx-auto">
-<div class="card ">
+            <div class="card ">
                 <div class="card-header">
                     <center><img src="img/UIT.png" width="40%">
-                    <h2 style="color:blue ; font-family:'Times New Roman'">University of Information Technology</h2></center>
+                    <h2 style="color:blue ; font-family:'Times New Roman'">UIT Theatre</h2></center>
                 <?php 
                     include "Database.php";
                     $result = mysqli_query($conn,"SELECT c.movie,c.booking_date,c.show_time,c.seat,c.totalseat,c.price,c.payment_date,c.custemer_id,u.username,u.email,u.mobile,u.city,t.theater FROM customers c INNER JOIN user u on c.uid=u.id INNER JOIN theater_show t on c.show_time=t.show WHERE custemer_id = '".$_SESSION['custemer_id']."'");
@@ -54,22 +54,22 @@ if (!isset($_SESSION['uname'])) {
 
                    <table>
                    	<tr>
-                   	<th>Name</th><th style="padding: 1px 105px;">City</th>
+                   	<th>Name</th><th style="padding: 1px 100px;">City</th>
                    </tr>
                    <tr>
-                   	<td><?php echo $row['username'];?></td><td style="padding: 12px 105px;"><?php echo $row['city'];?></td>
+                   	<td><?php echo $row['username'];?></td><td style="padding: 12px 100px;"><?php echo $row['city'];?></td>
                    </tr>
                    <tr>
-                   	<th>Email</th><th style="padding: 1px 105px;">Phone Number</th>
+                   	<th>Email</th><th style="padding: 1px 100px;">Phone Number</th>
                    </tr>
                    <tr>
-                   	<td><?php echo $row['email'];?></td><td style="padding: 12px 105px;">0<?php echo $row['mobile'];?></td>
+                   	<td><?php echo $row['email'];?></td><td style="padding: 12px 100px;">0<?php echo $row['mobile'];?></td>
                    </tr>
                    <tr>
-                   	<th>Payment Date</th><th style="padding: 1px 105px;">Total Payment</th>
+                   	<th>Payment Date</th><th style="padding: 1px 100px;">Total Payment</th>
                	  </tr>
                	  <tr>
-               	  	<td><?php echo $row['payment_date'];?></td><td style="padding: 12px 105px;"><?php echo number_format($row['price'], 0, '', '.');?> VND</td>
+               	  	<td><?php echo $row['payment_date'];?></td><td style="padding: 12px 100px;"><?php echo number_format($row['price'], 0, '', '.');?> VND</td>
                	  </tr>
                    </table>
 

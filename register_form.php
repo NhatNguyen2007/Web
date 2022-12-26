@@ -13,7 +13,7 @@
 <body>
 
   <div class="container">
-    <center><a href="./index.html"><img src="img/logo.png" alt="" style="margin-top: 80px; width: 50%;"></a></center>
+    <center><a href="./index.html"><img src="img/UIT.png" alt="" style="margin-top: 80px; width: 50%;"></a></center>
     <div class="title">Registration</div>
     <div class="content">
       <form id="form" action="register.php" method="post" enctype="multipart/form-data" onsubmit="return validate();">
@@ -63,140 +63,140 @@
   </div>
 <script type="text/javascript">
   function validate()
-{
- var error="";
- var name = document.getElementById( "username" );
- var email = document.getElementById( "email" );
- var number = document.getElementById( "number" );
- var city = document.getElementById( "city" );
- var password = document.getElementById( "password" );
- var cpassword = document.getElementById( "cpassword" );
+  {
+  var error="";
+  var name = document.getElementById( "username" );
+  var email = document.getElementById( "email" );
+  var number = document.getElementById( "number" );
+  var city = document.getElementById( "city" );
+  var password = document.getElementById( "password" );
+  var cpassword = document.getElementById( "cpassword" );
 
- if( name.value == "" )
- {
-  error = " <font color='red'>!Requrie Name.</font> ";
-  document.getElementById( "nameerror" ).innerHTML = error;
-  return false;
- }
- if(name.value.length <= 2) 
-{
-   error = " <font color='red'>!please not allow 2 and 20 chaecter</font> ";
- 
-  document.getElementById( "nameerror" ).innerHTML = error;
-  return false;
- 
-}
-if(!isNaN(name.value)) 
-{
-   error = " <font color='red'>!please only charecter allowed</font> ";
- 
-  document.getElementById( "nameerror" ).innerHTML = error;
-  return false;
- 
-}
-
-
-
-
-
-
- else if( email.value == "")
- {
-  error = " <font color='red'>!Requrie Email.</font> ";
-  document.getElementById( "emailerror" ).innerHTML = error;
-  return false;
- }
- else if( email.value.indexOf('@') <= 0 )
- {
-  error = " <font color='red'>! ** @ invail position</font> ";
-  document.getElementById( "emailerror" ).innerHTML = error;
-  return false;
- }
-
- else if ((email.value.charAt(email.value.length-4)!='.') && (email.value.charAt(email.value.length-3)!='.'))
- {
-  error = " <font color='red'>! ** . invaild position</font> ";
-  document.getElementById( "emailerror" ).innerHTML = error;
-  return false;
- }
+  if( name.value == "" )
+  {
+    error = " <font color='red'>Requrie Name!!!</font> ";
+    document.getElementById( "nameerror" ).innerHTML = error;
+    return false;
+  }
+  if(name.value.length <= 2) 
+  {
+    error = " <font color='red'>The length of User Name must be between 2 and 20 characters</font> ";
+  
+    document.getElementById( "nameerror" ).innerHTML = error;
+    return false;
+  
+  }
+  if(!isNaN(name.value)) 
+  {
+    error = " <font color='red'>Only characters allowed</font> ";
+  
+    document.getElementById( "nameerror" ).innerHTML = error;
+    return false;
+  
+  }
 
 
 
 
 
 
- else if( number.value == "")
- {
-  error = " <font color='red'>!Requrie Name.</font> ";
-  document.getElementById( "numbererror" ).innerHTML = error;
-  return false;
- }
-else if( number.value.length!=10)
- {
-  error = " <font color='red'>! ** mobile number must 10 digit</font> ";
-  document.getElementById( "numbererror" ).innerHTML = error;
-  return false;
- }
+  else if( email.value == "")
+  {
+    error = " <font color='red'>Requrie Email!!!</font> ";
+    document.getElementById( "emailerror" ).innerHTML = error;
+    return false;
+  }
+  else if( email.value.indexOf('@') <= 0 )
+  {
+    error = " <font color='red'>! ** @ invail position</font> ";
+    document.getElementById( "emailerror" ).innerHTML = error;
+    return false;
+  }
 
-else if(isNaN(number.value)){
-  error = " <font color='red'>! ** mobile number must be not allow charecter</font> ";
-  document.getElementById( "numbererror" ).innerHTML = error;
-  return false;
-}
-
-
-
-
- else if( city.value == "" )
- {
-  error = " <font color='red'>!Requrie Name.</font> ";
-  document.getElementById( "cityerror" ).innerHTML = error;
-  return false;
- }
-
- else if( password.value == "" )
- {
-  error = " <font color='red'>!Requrie Name.</font> ";
-  document.getElementById( "passworderror" ).innerHTML = error;
-  return false;
- }
-
-  if(password.value.length <= 2) 
-{
-   error = " <font color='red'>!not allow 2 and 10 chaecter</font> ";
- 
-  document.getElementById( "passworderror" ).innerHTML = error;
-  return false;
- 
-}
-  if(password.value.length >= 10) 
-{
-   error = " <font color='red'>!not allow 2 and 10 chaecter</font> ";
- 
-  document.getElementById( "passworderror" ).innerHTML = error;
-  return false;
- 
-}
+  else if ((email.value.charAt(email.value.length-4)!='.') && (email.value.charAt(email.value.length-3)!='.'))
+  {
+    error = " <font color='red'>! ** . invaild position</font> ";
+    document.getElementById( "emailerror" ).innerHTML = error;
+    return false;
+  }
 
 
-else if( cpassword.value == "" )
- {
-  error = " <font color='red'>!Requrie Name.</font> ";
-  document.getElementById( "cpassworderror" ).innerHTML = error;
-  return false;
- }
 
-else if( cpassword.value != password.value)
- {
-  error = " <font color='red'>!Conform Password Not Match.</font> ";
-  document.getElementById( "cpassworderror" ).innerHTML = error;
-  return false;
- }
 
- else
- {
-  return true;
- }
+
+
+  else if( number.value == "")
+  {
+    error = " <font color='red'>Requrie Phone Number!!!</font> ";
+    document.getElementById( "numbererror" ).innerHTML = error;
+    return false;
+  }
+  else if( number.value.length!=12)
+  {
+    error = " <font color='red'>! ** mobile number must be 12 digits</font> ";
+    document.getElementById( "numbererror" ).innerHTML = error;
+    return false;
+  }
+
+  else if(isNaN(number.value)){
+    error = " <font color='red'>! ** mobile number must not contain characters</font> ";
+    document.getElementById( "numbererror" ).innerHTML = error;
+    return false;
+  }
+
+
+
+
+  else if( city.value == "" )
+  {
+    error = " <font color='red'>Requrie City!!!</font> ";
+    document.getElementById( "cityerror" ).innerHTML = error;
+    return false;
+  }
+
+  else if( password.value == "" )
+  {
+    error = " <font color='red'>Requrie Password!!!</font> ";
+    document.getElementById( "passworderror" ).innerHTML = error;
+    return false;
+  }
+
+    if(password.value.length <= 2) 
+  {
+    error = " <font color='red'>The length of Password must be between 2 and 10 characters</font> ";
+  
+    document.getElementById( "passworderror" ).innerHTML = error;
+    return false;
+  
+  }
+    if(password.value.length >= 10) 
+  {
+    error = " <font color='red'>The length of Password must be between 2 and 10 characters</font> ";
+  
+    document.getElementById( "passworderror" ).innerHTML = error;
+    return false;
+  
+  }
+
+
+  else if( cpassword.value == "" )
+  {
+    error = " <font color='red'>Please conform your password</font> ";
+    document.getElementById( "cpassworderror" ).innerHTML = error;
+    return false;
+  }
+
+  else if( cpassword.value != password.value)
+  {
+    error = " <font color='red'>Conform Password does not match</font> ";
+    document.getElementById( "cpassworderror" ).innerHTML = error;
+    return false;
+  }
+
+  else
+  {
+    return true;
+  }
 }
 </script>
 </body>

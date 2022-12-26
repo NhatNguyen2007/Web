@@ -103,7 +103,7 @@
         echo $row['seat'];
         echo ",";
       }?>">
-      <center><input type="submit" name="submit" class="btn btn-primary" value="Check Avaliable Seat"></center></form>
+      <center><input type="submit" name="submit" class="btn btn-primary" value="Check Available Seat"></center></form>
       <hr>
 
 <form action="payment.php" method="post">
