@@ -34,10 +34,8 @@
 </table>
 
 <h2>
-  Chủ đề 
+  Chủ đề: Movie Ticket Booking Website
 </h2>
-
-- ***Tên chủ đề:*** Movie Ticket Booking Website
 
 
 ## Installation For This Project I used Xampp
