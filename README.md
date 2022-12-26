@@ -1,3 +1,15 @@
+##Installation
+For This Project I used Xampp.
+
+1) Open PHPMyAdmin
+2) import 'moviebook.sql'
+ * Admin account: Admin
+ * Password: 123
+
+ * User account: Expiget_Online
+ * Password: 123
+
+
 ### Home Interface
 <a href="https://www.linkpicture.com/view.php?img=LPic63a9ed3ea7f68740213781"><img src="https://www.linkpicture.com/q/z3991149159031_b9c6d5c3dfaf59056a8ecb63100af7e8.jpg" type="image"></a>
 <a href="https://www.linkpicture.com/view.php?img=LPic63a9edd63a90c156523212"><img src="https://www.linkpicture.com/q/z3991149260996_4539002054b2aac990993897b2145075.jpg" type="image"></a>
