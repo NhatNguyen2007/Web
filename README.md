@@ -2,10 +2,10 @@
 For This Project I used Xampp.
 
 1) Open PHPMyAdmin
-2) import 'moviebook.sql'
+2) Import 'moviebook.sql' to your phpmyadmin
  * Admin account: Admin
  * Password: 123
- 
+## 
 
  * User account: Expiget_Online
  * Password: 123
